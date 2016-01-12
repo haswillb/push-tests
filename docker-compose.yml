@@ -1,0 +1,10 @@
+server:
+  image: "aerospike/aerospike-server:latest"
+  ports:
+    - "3000:3000"
+
+client:
+  build: ./client
+  links:
+    - server
+
