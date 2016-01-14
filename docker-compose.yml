@@ -8,3 +8,12 @@ client:
   links:
     - server
 
+bench:
+  build: ./bench
+  links:
+    - server
+
+bench-java:
+  build: ./bench-java
+  links:
+    - server

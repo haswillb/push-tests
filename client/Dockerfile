@@ -8,4 +8,6 @@ RUN bundle install
 
 ADD . .
 
-CMD ["bundle", "exec", "ruby", "app.rb"]
+# CMD ["bundle", "exec", "ruby", "app.rb"]
+
+CMD ["bundle", "exec", "ruby", "tools/benchmark/benchmark.rb"]
