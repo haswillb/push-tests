@@ -8,12 +8,12 @@ client:
   links:
     - server
 
-bench:
-  build: ./bench
+bench-ruby:
+  build: ./aerospike-client-ruby
   links:
     - server
 
 bench-java:
-  build: ./bench-java
+  build: ./aerospike-client-java
   links:
     - server
