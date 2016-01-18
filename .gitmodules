@@ -1,6 +1,6 @@
 [submodule "aerospike-client-java"]
 	path = aerospike-client-java
-	url = git@github.com:haswillb/aerospike-client-java.git
+	url = https://github.com/haswillb/aerospike-client-java.git
 [submodule "aerospike-client-ruby"]
 	path = aerospike-client-ruby
-	url = git@github.com:haswillb/aerospike-client-ruby.git
+	url = https://github.com/haswillb/aerospike-client-ruby.git
