@@ -1,6 +1,5 @@
 # push-tests
 
-
 ## To Run
 
 + docker must be [installed](https://docs.docker.com/engine/installation/mac/)
