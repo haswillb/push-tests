@@ -1,4 +1,5 @@
 commands:
   - docker build -t willbeebe/my-image .
   - docker run willbeebe/my-image
+  - docker login --email="<%= ENV['DOCKERHUB_EMAIL'] %>" --username="<%= ENV['DOCKERHUB_USERNAME'] %>" --password="<%= ENV['DOCKERHUB_PASSWORD'] %>"
   - docker push willbeebe/my-image
