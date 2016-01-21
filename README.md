@@ -2,8 +2,6 @@
 ## To Run
 
 
-
-
 + docker must be [installed](https://docs.docker.com/engine/installation/mac/)
 + docker-compose build bench-java
 + (leave running) docker-compose up server
